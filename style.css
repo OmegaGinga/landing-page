@@ -15,7 +15,6 @@
 }
 
 .logo{
-    margin: 0;
     display: flex;
     gap: 16px;
 }
@@ -24,6 +23,7 @@
     color: #E5E7EB;
     font-size: 24px;
     font-weight: bold;
+    margin: 0;
 }
 
 .links, a{
@@ -106,20 +106,43 @@ body{
 .photo-1{    
     display: flex;
     flex-direction: column;    
-    width: 128px;
+    width: 256px;
 }
 
 .photo-box{
     border: 2px solid #3882f6;
     border-radius: 10px;
-    height: 96px;
-    width: 96px;
+    height: 200px;
+    width: 200px;
 }
 
 .quote{
     text-align: center;
     margin: 0;
-    width: 104px;
-    font-size: small;
+    width: 200px;
     color: gray;
+}
+
+.h2{
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.testimonial-section{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-2{
+    font-size: 36px;
+    width: 900px;
+    color: grey;
+}
+.autor{
+    text-align: end;
+    font-size: 28px;
+    color: #1F2937;
+    font-weight: bold;
 }
